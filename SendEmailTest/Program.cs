@@ -12,6 +12,13 @@ namespace SendEmailTest
     {
         static void Main(string[] args)
         {
+
+            SendEmail();
+            Console.ReadKey();
+        }
+
+        static void SendEmail()
+        {
             MailAddress fromAddress = new MailAddress("robotmsg@126.com");
             MailAddress toAddress = new MailAddress("kangeneral@126.com");
 
@@ -26,7 +33,7 @@ namespace SendEmailTest
             client.Host = "smtp.126.com";
             client.Port = 25;
             client.EnableSsl = true;
-            client.Credentials = new NetworkCredential("robotmsg@126.com", "q1w2e3r4");
+            client.Credentials = new NetworkCredential("robotmsg@126.com", "");
             //client.DeliveryMethod = SmtpDeliveryMethod.Network;
             client.Send(mail);
         }
