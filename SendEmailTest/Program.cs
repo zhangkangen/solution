@@ -12,7 +12,6 @@ namespace SendEmailTest
     {
         static void Main(string[] args)
         {
-
             SendEmail();
             Console.ReadKey();
         }
