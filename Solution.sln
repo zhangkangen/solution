@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendEmailTest", "SendEmailTest\SendEmailTest.csproj", "{839AAB4C-C63B-4189-86C1-D675839DC313}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteTest", "SqliteTest\SqliteTest.csproj", "{13CB40A0-EC98-465B-A3DA-007D96F9AC97}"
@@ -8,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformMaimUI", "WinformMaimUI\WinformMaimUI.csproj", "{96633353-C914-4144-B36A-42A9A6973A96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopColorPicker", "ColorPicker\DesktopColorPicker.csproj", "{1C16501C-5F3A-4AA3-82EB-16A104FDE2E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{798B5040-31CE-41B5-B93B-CA801391DD77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,10 @@ Global
 		{1C16501C-5F3A-4AA3-82EB-16A104FDE2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C16501C-5F3A-4AA3-82EB-16A104FDE2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C16501C-5F3A-4AA3-82EB-16A104FDE2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798B5040-31CE-41B5-B93B-CA801391DD77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798B5040-31CE-41B5-B93B-CA801391DD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798B5040-31CE-41B5-B93B-CA801391DD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798B5040-31CE-41B5-B93B-CA801391DD77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
